@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+{% block ${1:name} %}
+    $0
+{% endblock $1 %}
+]]></content>
+    <tabTrigger>block</tabTrigger>
+    <scope>source.jinja, text.html.jinja</scope>
+</snippet>

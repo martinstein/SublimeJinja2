@@ -1,0 +1,10 @@
+// Override the default curly-brace auto-closing behaviour
+
+[
+    { "keys": ["{"], "command": "", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.jinja" },
+            { "key": "selector", "operator": "equal", "operand": "text.html.jinja" }
+        ]
+    }
+]
