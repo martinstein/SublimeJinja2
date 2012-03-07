@@ -7,7 +7,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.jinja" }
         ]
     },
-    { "keys": ["alt+shift+l"], "command": "insert_snippet", "args": { "name": "Packages/SublimeJinja2/GettextShort.sublime-snippet" }, "context":
+    { "keys": ["alt+shift+l"], "command": "insert_snippet", "args": { "name": "Packages/Jinja2/GettextShort.sublime-snippet" }, "context":
         [
             { "key": "selector", "operator": "equal", "operand": "text.html.jinja" }
         ]
