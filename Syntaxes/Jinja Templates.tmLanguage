@@ -100,6 +100,34 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>begin</key>
+			<!-- Extend from begin in HTML.tmLanguage with text/ko-template -->
+			<string>(&lt;)(script) type="text/template"(?![^&gt;]*/&gt;)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.tag.html</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.tag.script.html</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<!-- Same as end in HTML.tmLanguage -->
+			<string>(?&lt;=&lt;/(script|SCRIPT))(&gt;)(?:\s*\n)?</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>text.html.jinja</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>repository</key>
 	<dict>
